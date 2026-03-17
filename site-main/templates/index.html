@@ -1,12 +1,100 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-  MAIN
-</h1>
-<p><a href="{{ get_url(path='@/contato/contato.md') }}">Contato</a>.</p>
-<p><a href="{{ get_url(path='@/parceiros/_index.md') }}">Case & Parceiros</a>.</p>
-<p><a href="{{ get_url(path='@/ps_main/ps_main.md') }}">P.S. Main</a>.</p>
-<p><a href="{{ get_url(path='@/sobre_nos/sobre_nos.md') }}">Sobre Nós</a>.</p>
-<p><a href="{{ get_url(path='@/social/_index.md') }}">Social</a>.</p>
+
+<img src="imagens/fundo_Galaxia.png" id="fundo-hero">
+
+<div class="content" >
+
+  <div id="frase-hero">
+    <h1 id="titulo">Experiência que forma, código que transforma!</h1>
+    <h6 id="subtitulo">Transformamos ideias em soluções reais. Uma equipe de estudantes comprometidos com excelência, transparência e inovação.</h6>
+    <div id="botao-hero">
+      <p>Clique aqui</p>
+      <span class="material-symbols-outlined" id="flecha-hero">arrow_outward</span>
+    </div>
+  </div>
+
+  <div id="img-hero">
+    <div id="blur-background"></div>
+    <img src="imagens/computer.svg" id="computer-hero">
+    <div id="blur-shadow"></div>
+    <div id="blur-aura"></div>
+    <img src="imagens/logo-main-neon.svg" id="main-logo-aura">
+    <img src="imagens/coffe-neon.svg" id="coffe-aura">
+    <img src="imagens/error-neon.svg" id="error-aura">
+    <img src="imagens/dino-neon.svg" id="dino-aura">
+    <img src="imagens/code-neon.svg" id="code-aura">
+  </div>
+
+
+
+  <div id="ideia-codigo">
+    <div id="texto-codigo">
+      <h1>Da ideia ao código, do código ao resultado.</h1>
+      <h6>É a Inovação universitária aplicada ao mercado, transformando conhecimento em soluções práticas para o seu negócio.</h6>
+    </div>
+    <!--            <div id="img-codigo">-->
+    <!--                <h4>class Main:-->
+    <!--                    def __init__(self):-->
+    <!--                        self.tecnologia = "moderna"-->
+    <!--                        self.qualidade = "alta"-->
+    <!--                        self.criatividade = True</h4>-->
+    <!--            </div>-->
+    <div class="code-box">
+            <pre>
+<span class="magenta">class</span> <span class="rosa">Main</span>:
+    <span class="magenta">def</span> <span class="roxo">__init__</span>(<span class="roxo">self</span>):
+        <span class="roxo">self</span><span class="magenta">.</span>tecnologia <span class="magenta">=</span> <span class="verde">"moderna"</span>
+        <span class="roxo">self</span><span class="magenta">.</span>qualidade <span class="magenta">=</span> <span class="verde">"alta"</span>
+        <span id="marcado"><span class="roxo">self</span><span class="magenta">.</span>criatividade <span class="magenta">=</span> <span class="rosa">True</span></span></pre>
+    </div>
+    <div id="flash-blur">
+      <div id="lay1"></div>
+      <div id="lay2"></div>
+      <div id="lay3"></div>
+    </div>
+    <img src="imagens/Cone%20-%20Transparent.svg" id="cone">
+    <img src="imagens/Cube%20-%20Transparent.svg" id="cube#1">
+    <img src="imagens/Cube%20-%20Transparent.svg" id="cube#2">
+    <img src="imagens/Prisma%20-%20Transparent.svg" id="prisma">
+    <img src="imagens/piramide%20-%20Transparent.svg" id="piramide">
+  </div>
+
+  <img src="imagens/fundo_Galaxia.png" id="fundo-hero#2">
+
+  <div id="main-info">
+    <div id="">
+      <h1></h1>
+      <h6></h6>
+    </div>
+    <div id="topicos">
+      <div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+      </div>
+      <div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+      </div>
+      <div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% endblock content %}
