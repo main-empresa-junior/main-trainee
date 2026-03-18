@@ -1,0 +1,4 @@
+gitignore id="pasta_idea"
+**/.idea/
+
+site-main/.gitignore
