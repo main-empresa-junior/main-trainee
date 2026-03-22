@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #000;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+        url("/fundoestrelas.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    &::before {
+        content: "";
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../imagens/fundo_Galaxia.png');
+        background-repeat: repeat-y;
+        background-position: center top;
+        background-size: contain; 
+        opacity: 0.15; 
+        z-index: -1; 
+        pointer-events: none;
+    }
+}
+
+#blur-aura {
+    display: flex;
+    position: absolute;
+    background-color: #03CEBE;
+    width: 18.22vw; 
+    height: 18.22vw; 
+    justify-content: start;
+    margin-left: -19.27vw; 
+    margin-top: 31.25rem; 
+    border-radius: 100%;
+    opacity: 0.5;
+    filter: blur(70px);
+}
+
+#noteRoxo {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    right: -3vw;
+    height: 10.5rem; 
+    filter: blur(7px);
+    rotate: -30deg;
+}
+
+#blur-aura-rosa {
+    display: flex;
+    position: absolute;
+    background-color: #FF00C9;
+    width: 18.22vw; 
+    height: 18.22vw; 
+    justify-content: end;
+    margin-left: 80.72vw; 
+    margin-top: 60%;
+    border-radius: 100%;
+    opacity: 0.5;
+    filter: blur(70px);
+}
+
+#cuboNeon {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    right: -4vw; 
+    height: 12.5rem; 
+    top: 80%;
+    filter: blur(7px);
+    rotate: 30deg;
+}
+
+#AnelNeon {
+    width: 7.81vw;
+    height: 7.81vw; 
+    display: flex;
+    position: absolute;
+    margin-left: -13.02vw; 
+    margin-top: 33.125rem;
+    z-index: 1;
+    filter: blur(5px);
+}
+
+#estrelaFundo {
+    display: flex;
+    position: absolute;
+    margin-left: -5.20vw; 
+    margin-top: 20rem;
+    z-index: 2;
+}
+
+.content-container {
+    position: relative;
+    z-index: 10;
+    padding-top: 8.75rem; 
+    max-width: 93.75rem; 
+    margin: 0 auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    text-align: center;
+}
+
+.texto {
+    h1 {
+        font-size: 4rem;
+        color: rgb(247, 247, 247);
+        margin-bottom: 1.25rem;
+        letter-spacing: 0.125rem;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        color: rgb(247, 247, 247);
+        margin-bottom: 1.25rem;
+        letter-spacing: 0.0625rem;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        color: rgba(255, 255, 255, 0.9);
+        text-align: left;
+        margin: 0 auto 6.25rem;
+
+        strong {
+            color: #FF00C9;
+            font-weight: normal;
+        }
+    }
+
+    img {
+        display: block;
+        margin: 2.5rem auto;
+        max-width: 20%;
+        height: auto;
+        border-radius: 0.625rem;
+    }
+
+    .centralizado {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .espaco {
+        height: 0.9375rem;
+        width: 100%;
+    }
+}
