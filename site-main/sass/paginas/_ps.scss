@@ -1,0 +1,143 @@
+body{ background:
+    url("../imagens/fundo_munir.png"),
+    linear-gradient( rgb(0, 0, 5)); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: repeat;
+    font-family: "Inter", sans-serif;
+}
+
+.explicacao{
+    width:100%;
+    height: 300px ;
+    margin-top: 150px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.container-titulo-exp{
+    width: 100%;
+    height: 150px;
+
+}
+
+.container-texto-exp{
+    height: 150px;
+    padding: 0 105px;
+}
+
+.titulo-exp { 
+    text-align: center;
+    color: white;
+    font-size: 62px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+
+
+}
+
+.texto-exp{
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.container-gigante-eba{
+  display: flex;
+  flex-direction: row; 
+  position: relative;
+}
+
+
+.processoseletivo{
+    width: 50%;
+    height: 750px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.container-tit-ps{
+    width: 100%;
+    height: 150px 
+    
+}
+
+.container-texto-ps{
+    height: 600px;
+    padding: 0 105px;
+}
+
+.titulo-ps{
+
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+
+.texto-ps{
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+
+}
+
+.faq{
+    width: 50%;
+    height: 750px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.container-tit-faq{
+    width: 100%;
+    height: 150px 
+    
+}
+
+.container-texto-faq{
+    height: 600px;
+    padding: 0 105px;
+}
+
+.titulo-faq{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+
+.texto-faq{
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.buraco-negro{
+    position: absolute;
+    width: 600px;
+    height: 600px; 
+    left: 640px;
+    
+}
+
+.buraco-negro img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
