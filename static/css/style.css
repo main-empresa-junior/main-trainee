@@ -34,7 +34,8 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 150px;
     padding: 8px 30px;
     max-width: 1360px;
     margin: 0 auto;
