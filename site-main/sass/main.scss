@@ -1,3 +1,7 @@
 @import "layouts/header";
 @import "layouts/footer";
 @import "paginas/home";
+@use "layouts/header";
+@use "layouts/footer";
+@use "paginas/home";
+@use "paginas/social";

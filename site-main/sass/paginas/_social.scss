@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #000;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    
+    
+    &::before {
+        content: "";
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../imagens/fundo_Galaxia.png');
+        background-repeat: repeat-y;
+        background-position: center top;
+        background-size: cover; 
+        opacity: 0.4; 
+        z-index: -1; 
+        pointer-events: none;
+    }
+}
+
+#blur-aura {
+    position: absolute;
+    background-color: #03CEBE;
+    width: 18vw; 
+    height: 18vw; 
+    left: -7vw; 
+    top: 80vh; 
+    border-radius: 100%;
+    opacity: 0.7;
+    filter: blur(70px);
+    z-index: -1;
+}
+
+#noteRoxo {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    right: 5vw;
+    height: 10.5rem; 
+    top: 15vh; 
+    filter: blur(7px);
+    rotate: -30deg;
+}
+
+#blur-aura-rosa {
+    position: absolute;
+    background-color: #FF00C9;
+    width: 18vw; 
+    height: 18vw; 
+    right: -9vw; 
+    top: 130vh; 
+    border-radius: 100%;
+    opacity: 0.8;
+    filter: blur(70px);
+    z-index: -1;
+}
+
+#cuboNeon {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    right: 0vw; 
+    height: 12.5rem; 
+    top: 110vh; 
+    filter: blur(7px);
+    rotate: 30deg;
+}
+
+#AnelNeon {
+    width: 7.81vw;
+    height: 7.81vw; 
+    display: flex;
+    position: absolute;
+    left: -2.02vw; 
+    top: 110vh; 
+    z-index: -1;
+    filter: blur(5px);
+}
+
+#estrelaFundo {
+    position: absolute;
+    left: 5vw; 
+    top: 75vh;
+    z-index: 2;
+}
+
+.content-container {
+    position: relative;
+    z-index: 10;
+    padding-top: 15vh; 
+    width: 90%;          
+    max-width: 1200px;    
+    margin: 0 auto;      
+    text-align: center;
+}
+
+.texto {
+    h1 {
+        font-size: 4rem;
+        color: rgb(247, 247, 247);
+        margin-bottom: 1.25rem;
+        letter-spacing: 0.125rem;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        color: rgb(247, 247, 247);
+        margin-bottom: 1.25rem;
+        letter-spacing: 0.0625rem;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        color: rgba(255, 255, 255, 0.9);
+        text-align: left;
+        margin: 0 auto 10vh; 
+
+        strong {
+            color: #FF00C9;
+            font-weight: normal;
+        }
+    }
+
+    img {
+        display: block;
+        margin: 5vh auto; 
+        max-width: 20%;
+        height: auto;
+        border-radius: 0.625rem;
+    }
+
+    .centralizado {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .espaco {
+        height: 2vh; 
+        width: 100%;
+    }
+}
