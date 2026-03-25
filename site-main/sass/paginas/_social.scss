@@ -7,13 +7,6 @@ body {
     color: white;
     font-family: 'Inter', sans-serif;
     
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
-        url("/fundoestrelas.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     
     &::before {
         content: "";
@@ -25,58 +18,57 @@ body {
         background-image: url('../imagens/fundo_Galaxia.png');
         background-repeat: repeat-y;
         background-position: center top;
-        background-size: contain; 
-        opacity: 0.15; 
+        background-size: cover; 
+        opacity: 0.4; 
         z-index: -1; 
         pointer-events: none;
     }
 }
 
 #blur-aura {
-    display: flex;
     position: absolute;
     background-color: #03CEBE;
-    width: 18.22vw; 
-    height: 18.22vw; 
-    justify-content: start;
-    margin-left: -19.27vw; 
-    margin-top: 31.25rem; 
+    width: 18vw; 
+    height: 18vw; 
+    left: -7vw; 
+    top: 80vh; 
     border-radius: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
     filter: blur(70px);
+    z-index: -1;
 }
 
 #noteRoxo {
     display: flex;
     position: absolute;
     z-index: -1;
-    right: -3vw;
+    right: 5vw;
     height: 10.5rem; 
+    top: 15vh; 
     filter: blur(7px);
     rotate: -30deg;
 }
 
 #blur-aura-rosa {
-    display: flex;
     position: absolute;
     background-color: #FF00C9;
-    width: 18.22vw; 
-    height: 18.22vw; 
-    justify-content: end;
-    margin-left: 80.72vw; 
-    margin-top: 60%;
+    width: 18vw; 
+    height: 18vw; 
+    right: -9vw; 
+    top: 130vh; 
     border-radius: 100%;
-    opacity: 0.5;
+    opacity: 0.8;
     filter: blur(70px);
+    z-index: -1;
 }
 
 #cuboNeon {
     display: flex;
     position: absolute;
     z-index: -1;
-    right: -4vw; 
+    right: 0vw; 
     height: 12.5rem; 
-    top: 80%;
+    top: 110vh; 
     filter: blur(7px);
     rotate: 30deg;
 }
@@ -86,28 +78,26 @@ body {
     height: 7.81vw; 
     display: flex;
     position: absolute;
-    margin-left: -13.02vw; 
-    margin-top: 33.125rem;
-    z-index: 1;
+    left: -2.02vw; 
+    top: 110vh; 
+    z-index: -1;
     filter: blur(5px);
 }
 
 #estrelaFundo {
-    display: flex;
     position: absolute;
-    margin-left: -5.20vw; 
-    margin-top: 20rem;
+    left: 5vw; 
+    top: 75vh;
     z-index: 2;
 }
 
 .content-container {
     position: relative;
     z-index: 10;
-    padding-top: 8.75rem; 
-    max-width: 93.75rem; 
-    margin: 0 auto;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-top: 15vh; 
+    width: 90%;          
+    max-width: 1200px;    
+    margin: 0 auto;      
     text-align: center;
 }
 
@@ -133,7 +123,7 @@ body {
         line-height: 2rem;
         color: rgba(255, 255, 255, 0.9);
         text-align: left;
-        margin: 0 auto 6.25rem;
+        margin: 0 auto 10vh; 
 
         strong {
             color: #FF00C9;
@@ -143,7 +133,7 @@ body {
 
     img {
         display: block;
-        margin: 2.5rem auto;
+        margin: 5vh auto; 
         max-width: 20%;
         height: auto;
         border-radius: 0.625rem;
@@ -155,7 +145,7 @@ body {
     }
 
     .espaco {
-        height: 0.9375rem;
+        height: 2vh; 
         width: 100%;
     }
 }

@@ -10,6 +10,8 @@ page_template = "social-page.html"
 <div class="espaco"></div>
 <div class="espaco"></div>
 <div class="espaco"></div>
+<div class="espaco"></div>
+<div class="espaco"></div>
 
 A Main também busca ser um agente de transformação para quem mais precisa. Nosso propósito é fortalecer o trabalho de **ONGs** / **instituições sociais**, oferecendo suporte e soluções que modernizam suas iniciativas e ampliam o alcance de suas vozes. Acreditamos que, ao potencializar a estrutura dessas organizações, ajudamos a garantir que o auxílio chegue a mais pessoas de forma eficiente, transformando dedicação em resultados reais e gerando um impacto positivo e duradouro na sociedade.
 
