@@ -387,28 +387,38 @@ footer {
 
     .footer-logo {
         grid-column: 1 / -1;
-        margin-top: 0;
+        margin-right: 0;
         margin-bottom: 8px;
     }
 }
 
-/* ── MOBILE LARGO (max 860px) ── */
+/* ── MOBILE (max 860px) ── */
 @media (max-width: 860px) {
-    .left-col h1, .right-col h2 {
-        font-size: 38px;
-        white-space: normal;
-    }
-
     nav {
         padding: 12px 20px;
+        flex-direction: column;
+        gap: 12px;
     }
 
     .nav-links {
-        gap: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .nav-links li {
+        list-style: none;
     }
 
     .nav-links a {
-        font-size: 13px;
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+
+    .left-col h1, .right-col h2 {
+        font-size: 38px;
+        white-space: normal;
     }
 
     .hero {
@@ -439,7 +449,6 @@ footer {
 
     .footer-logo {
         grid-column: 1 / -1;
-        margin-top: 0;
         margin-bottom: 4px;
     }
 
@@ -454,21 +463,13 @@ footer {
         font-size: 30px;
     }
 
-    .nav-links {
-        gap: 10px;
-    }
-
-    .nav-links a {
-        font-size: 12px;
-    }
-
     .body-text {
         font-size: 14px;
         max-width: 100%;
     }
 
     .left-col {
-        padding: 32px 20px 28px;
+        padding: 32px 20px 28px 32px;
     }
 
     .right-col {
