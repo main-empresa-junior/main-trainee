@@ -368,6 +368,28 @@ footer {
 .footer-social-row a:hover { 
     opacity: .75; }
 
+.decoration-cube-bg {
+    position: absolute;
+    top: -40px;
+    left: 2%;
+    width: 140px;
+    opacity: 0.18;
+    filter: blur(3px);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.decoration-cone-bg {
+    position: absolute;
+    bottom: -40px;
+    right: 2%;
+    width: 140px;
+    opacity: 0.18;
+    filter: blur(3px);
+    z-index: 0;
+    pointer-events: none;
+}
+
 /* ─────────── RESPONSIVIDADE ─────────── */
 
 /* ── TABLET (max 1024px) ── */
