@@ -5,6 +5,7 @@ body{ background:
     background-position: center; 
     background-repeat: repeat;
     font-family: "Inter", sans-serif;
+    overflow-x: hidden;
 }
 
 .explicacao{
@@ -102,7 +103,7 @@ body{ background:
 
 .container-tit-faq{
     width: 100%;
-    height: 150px 
+    height: 150px;
     
 }
 
@@ -129,9 +130,11 @@ body{ background:
 
 .buraco-negro{
     position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
     width: 600px;
     height: 600px; 
-    left: 640px;
     
 }
 
@@ -140,4 +143,33 @@ body{ background:
   height: 100%;
   object-fit: cover;
   
+}
+
+
+.fundo-magenta{
+  position: absolute;
+  right: -32%;
+  bottom: -80%;
+  height: 250px;
+  width: 500px;
+  background-color: white;
+  border: 250px outset #c01d9d;
+  border-radius: 80%;
+  filter: blur(300px);
+}
+
+.Cone{
+    position: absolute;
+    right: 5%;
+    bottom: -30%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px; 
+
+}
+.Cone img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }

@@ -1,0 +1,33 @@
+// fonts-padrões
+
+// padrão que todas as fontes teram
+@mixin font-base {
+  color: white;
+  line-height: 1;
+}
+
+@mixin padrao-font-titulo {
+  @include font-base;
+  font-size: clamp(32px, 3.3vw, 64px);
+  font-weight: 900;
+}
+
+@mixin padrao-font-subtitulo {
+  @include font-base;
+  font-size: clamp(16px, 2vw, 22px);
+  font-weight: 500;
+}
+
+@mixin padrao-font-paragrafo {
+  font-size: clamp(14px, 1.2vw, 16px);
+  font-weight: 100;
+  color: white;
+  line-height: 1.5;
+}
+
+@mixin padrao-font-paragrafo-bold {
+  @include font-base;
+  font-size: clamp(14px, 1.2vw, 16px);
+  font-weight: 900;
+}
+
