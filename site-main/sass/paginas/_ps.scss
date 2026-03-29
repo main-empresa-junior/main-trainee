@@ -133,10 +133,11 @@ body{ background:
     top: 50%;
     left: 55%;
     transform: translate(-50%, -50%);
-    width: 31.5vw;
-    height: 57.1vh; 
-    
+    width: clamp(250px, 31vw, 500px);
+    height: auto; /* mantém proporção da imagem */
 }
+    
+
 
 .buraco-negro img {
   width: 100%;
@@ -148,10 +149,11 @@ body{ background:
 
 .fundo-magenta{
   position: absolute;
-  right: -32%;
-  bottom: -80%;
-  height: 23.8vh;
-  width: 26.6vw;
+  right: 0;
+  bottom: 0;
+  transform: translate(65%, 90%);
+  width: min(300px, 23vw);   /* se ajusta em telas menores */
+  height: min(300px, 26vw);
   background-color: white;
   border: 250px outset #c01d9d;
   border-radius: 80%;
@@ -161,11 +163,11 @@ body{ background:
 
 .Cone{
     position: absolute;
-    right: 5%;
-    bottom: -30%;
-    transform: translate(-50%, -50%);
-    width: 10.5vw;
-    height: 19.1vh; 
+    right: 0%;
+    bottom: 0%;
+    transform: translate(-50%, 75%);
+    width: clamp(100px, 10.5vw, 200px); /* mantêm proporção responsiva */
+    height: auto;
 
 }
 .Cone img{
