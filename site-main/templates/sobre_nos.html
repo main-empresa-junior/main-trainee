@@ -1,10 +1,119 @@
 {% extends "base.html" %}
 
+{% block title %}Sobre nós{% endblock title %}
+
 {% block content %}
-<section class="section">
-    <div class="container">
-        <h1>Sobre Nós</h1>
-        <p>Conteúdo sobre a Main aqui..</p>
+<div class="contents">
+
+    <div id="sobre-nos">
+        <h1>Sobre Nós...</h1>
+        <div id="descricao">
+            <p>
+                A Main é a Empresa Júnior dos cursos de Ciência da Computação e Engenharia de Software da UEM,
+                uma iniciativa formada e administrada exclusivamente por estudantes da graduação e pós-graduação,
+                com o apoio e orientação de professores especialistas. Como associação civil sem fins lucrativos, unimos propósito acadêmico,
+                responsabilidade social e prática profissional.
+                <br>
+                <br>
+                Criada em 2025 em parceria com o Centro Acadêmico de Ciência da Computação (CACCOM),
+                a Main surgiu com a missão de trazer para dentro do Departamento de Informática uma vivência que vá além da teoria.
+                Somos a materialização do movimento de Empresas Juniores na UEM, oferecendo aos alunos  do departamento de informatica a oportunidade de aplicar,
+                de forma concreta, os conhecimentos adquiridos em sala de aula.
+            </p>
+        </div>
+        <img src="{{ get_url(path='imagens/treinamento_liliam.jpg') }}" id="img-principal">
+        <img src="{{ get_url(path='imagens/fundo_Galaxia.png')}}" id="img-sobre-nos1">
+        <img src="{{ get_url(path='imagens/treinamento_pet.jpg')}}" id="img-sobre-nos2">
+
+
     </div>
-</section>
+
+    <div id="nossa-cultura">
+        <h1>Nossa Cultura!</h1>
+        <img src="{{ get_url(path='imagens/primeira_RG.jpg') }}" id="img-cultura">
+        <div id="missao">
+            <img src="{{ get_url(path='imagens/missao_icon.svg') }}">
+            <h1>Missão</h1>
+            <p>Acreditamos no aprendizado prático da tecnologia para formar profissionais tecnicamente capacitados, com empatia e responsabilidade.</p>
+        </div>
+        <div id="visao">
+            <img src="{{ get_url(path='imagens/visao_icon.svg') }}">
+            <h1>Visão</h1>
+            <p>Ser referência em soluções tecnológicas e no desenvolvimento profissional, contribuindo para o fortalecimento do ecossistema regional e da formação na UEM.</p>
+        </div>
+        <div id="valores">
+            <img src="{{ get_url(path='imagens/valores_icon.svg') }}">
+            <h1>Valores</h1>
+            <p>Na Main, valorizamos o aprendizado contínuo, o desenvolvimento por meio da prática e a evolução de cada membro ao longo da jornada.</p>
+        </div>
+    </div>
+
+    <p id="intro-tecer">A gente acredita que boas ideias só viram grandes resultados quando são construídas juntos.<br> É por isso que nossos valores se resumem no que chamamos de <strong>TECER</strong>, a base de tudo o que construímos juntos.</p>
+
+    <div id="tecer">
+        <h2>Afinal, o que é o TECER?</h2>
+        <div id="essencia">
+            <img src="{{ get_url(path='imagens/union_icon.svg') }}">
+            <h1>A essência que <br>guia a Main!</h1>
+            <p>
+                TECER é o conjunto de valores que guia a Main. Ele reúne cinco princípios que orientam nossas decisões, nossa cultura e a forma como trabalhamos com clientes, parceiros e membros.
+                É a base que molda quem somos e como entregamos nossos projetos.
+            </p>
+        </div>
+
+        <div id="siglas">
+            <div id="transparencia">
+                <h4>Transparência</h4>
+                <p>Aparece nas conversas sinceras sobre dificuldades e avanços.</p>
+            </div>
+
+            <div id="excelencia">
+                <h4>Excelência</h4>
+                <p>Orienta a forma como entregamos projetos e como nos comprometemos.</p>
+            </div>
+
+            <div id="colaboracao">
+                <h4>Colaboração</h4>
+                <p>Colaboração faz parte da rotina, ninguém resolve desafios sozinho.</p>
+            </div>
+
+            <div id="empatia">
+                <h4>Empatia</h4>
+                <p>Empatia guia nossa relação com clientes, colegas e com a comunidade acadêmica.</p>
+            </div>
+
+            <div id="resiliencia">
+                <h4>Resiliência</h4>
+                <p>Surge quando enfrentamos imprevistos e escolhemos aprender com eles.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="flash-blur-green">
+        <div id="lay1"></div>
+        <div id="lay2"></div>
+        <div id="lay3"></div>
+    </div>
+
+    <div id="flash-blur-pink">
+        <div id="lay4"></div>
+        <div id="lay5"></div>
+        <div id="lay6"></div>
+    </div>
+
+    <div id="logo-uem">
+        <img src="{{ get_url(path='imagens/logo_uem.svg')}}" >
+    </div>
+    <div id="logo-caccon">
+        <img src="{{ get_url(path='imagens/caccon_logo.svg')}}" >
+    </div>
+
+    <img src="{{ get_url(path='imagens/Cone-Transparent.svg')}}" id="cone">
+    <img src="{{ get_url(path='imagens/Cube-Transparent.svg')}}" id="cube">
+    <img src="{{ get_url(path='imagens/prisma-Transparent.svg')}}" id="prisma">
+    <img src="{{ get_url(path='imagens/piramide-Transparent.svg')}}" id="piramide">
+
+    <div id="flash-light"></div>
+
+</div>
 {% endblock content %}
