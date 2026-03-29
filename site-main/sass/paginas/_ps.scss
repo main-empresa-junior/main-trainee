@@ -51,6 +51,7 @@ body{ background:
   display: flex;
   flex-direction: row; 
   position: relative;
+  height: 100%;
 }
 
 
@@ -130,7 +131,7 @@ body{ background:
 
 .buraco-negro{
     position: absolute;
-    top: 5%;
+    top: 50%;
     left: 55%;
     transform: translate(-50%, -50%);
     width: clamp(250px, 30vw, 500px);
@@ -153,7 +154,7 @@ body{ background:
   bottom: 0;
   transform: translate(50%, 80%);
   width: clamp(150px, 18vw, 300px);
-  height: min(300px, 26vw);
+  height: min(150px, 20vw);
   background-color: white;
   border: clamp(50px, 10vw, 250px) outset #c01d9d;
   border-radius: 80%;
@@ -165,7 +166,7 @@ body{ background:
     position: absolute;
     right: 5%;
     bottom: 0%;
-    transform: translate(-30%, 15%);
+    transform: translate(-20%, 70%);
     width: clamp(100px, 10.5vw, 200px); 
     height: auto;
 
