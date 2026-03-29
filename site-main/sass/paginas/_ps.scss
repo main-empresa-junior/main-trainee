@@ -130,11 +130,11 @@ body{ background:
 
 .buraco-negro{
     position: absolute;
-    top: 0%;
-    left: 50%;
+    top: 5%;
+    left: 55%;
     transform: translate(-50%, -50%);
-    width: clamp(250px, 20vw, 500px);
-    height: clamp(250px, 20vw, 500px);
+    width: clamp(250px, 30vw, 500px);
+    height: clamp(250px, 30vw, 500px);
 }
     
 
@@ -163,7 +163,7 @@ body{ background:
 
 .Cone{
     position: absolute;
-    right: 0%;
+    right: 5%;
     bottom: 0%;
     transform: translate(-30%, 15%);
     width: clamp(100px, 10.5vw, 200px); 
