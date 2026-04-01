@@ -37,7 +37,7 @@ A Main vai além da simples prestação de serviço: buscamos parcerias próxima
 
 <p class="centralizado">Portal de Divulgação Científica</p>
 
-![Portal de Divulgação Científica] (/imagens/portal-uem.svg)
+![Portal de Divulgação Científica](/imagens/portal-uem.svg)
 
 <div class="espaco"></div>
 

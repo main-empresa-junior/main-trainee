@@ -1,12 +1,12 @@
 <div class="blur-layer"></div>
 <div class="logo">
-    < !--<img
-        src="{{ get_url(path='imagens/logo_main.svg') }}"
+    <!--<img
+        src="/imagens/logo_main.svg"
         alt="Logo Main"
-    />-- >
-    <a href="../index.html"
+    />-->
+    <a href="{{ get_url(path='/') }}"
         ><img
-            src="{{ get_url(path='imagens/logo_main_branco.svg') }}"
+            src="/imagens/logo_main_branco.svg"
             alt="Logo Main Empresa Júnior"
     /></a>
 </div>
@@ -14,8 +14,8 @@
     <li>
         <a href="{{ get_url(path='@/sobre_nos/sobre_nos.md') }}">Sobre Nós</a>
     </li>
-    <li><a href="../parceiros.html">Case & Parceiros</a></li>
-    <li><a href="../social.html">Social</a></li>
-    <li><a href="../contato.html">Contato</a></li>
-    <li><a href="../ps_main.html">P.S. Main</a></li>
+    <li><a href="{{ get_url(path='@/parceiros/_index.md') }}">Case & Parceiros</a></li>
+    <li><a href="{{ get_url(path='@/social/_index.md') }}">Social</a></li>
+    <li><a href="{{ get_url(path='@/contato/contato.md') }}">Contato</a></li>
+    <li><a href="{{ get_url(path='@/ps_main/ps_main.md') }}">P.S. Main</a></li>
 </ul>
