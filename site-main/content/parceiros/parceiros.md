@@ -1,12 +1,10 @@
 +++
 title = "Case e Parceiros"
-sort_by = "date"
 template = "parceiros.html"
-page_template = "parceiros-page.html"
+path = "parceiros" 
 +++
 
 # Parceiros
-
 <div class="espaco"></div>
 <div class="espaco"></div>
 
