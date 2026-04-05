@@ -1,10 +1,60 @@
 {% extends "base.html" %}
 
+{% block title %}Contato{% endblock title %}
+
 {% block content %}
-<section class="section">
-    <div class="container">
-        <h1>Contatos</h1>
-        <p>Conteúdo sobre o contato da Main aqui...</p>
+<div class="hero-outer">
+  <section class="hero">
+
+    <div class="glow-mid"></div>
+    <div class="glow-tl"></div>
+    <div class="glow-tr"></div>
+
+    <div class="left-col">
+      <h1>Entre em contato!</h1>
+
+      <p class="body-text">A Main Empresa Júnior está situada na Universidade Estadual de Maringá (UEM), em Maringá. 
+        Entre em contato conosco por e-mail ou por meio de nossas redes sociais, como Instagram e LinkedIn. 
+        Nossa equipe está pronta para tirar dúvidas, trocar ideias e ajudar a transformar o seu projeto em realidade da melhor forma possível!</p>
+
+      <p class="address-box">Av. Colombo, 5790, Maringá - PR, 87035-510 · UEM - Bloco C56<br>Sala 111</p>
+      <p class="hours">Segunda - Sexta | 07:45 - 12:10, 13:30 - 17:50</p>
+
+      <div class="email-row">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:mainjr@uem.br" class="email-link">
+          mainjr@uem.br
+        </a>
+      </div>
+
+      <div class="social-icons">
+        <a class="social-btn" href="https://www.linkedin.com/company/main-ej/" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a class="social-btn" href="https://www.instagram.com/main.ej.uem/" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
     </div>
-</section>
+
+    <div class="right-col">
+      <h2>Como nos encontrar</h2>
+      <p class="location-label">
+        Universidade Estadual de Maringá - UEM<br>
+        Bloco C56 - Departamento de Informática
+      </p>
+      <div class="map-photo-row">
+        <div class="map-embed">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.517929168628!2d-51.938918223888216!3d-23.405650655891627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd132a8d9ea27%3A0x8a04c17be315d09d!2sBloco%20C56!5e0!3m2!1sen!2sbr!4v1773092996106!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="photo-thumb">
+          <img src="/imagens/din.jpg" alt="Bloco C56 - Departamento de Informática">
+        </div>
+      </div>
+    </div>
+    
+    <img src="/img/cone.svg" class="decoration-cone-bg" alt="">
+    <img src="/img/cube.svg" class="decoration-cube-bg" alt="">
+  </section>
+</div>
 {% endblock content %}

@@ -5,8 +5,8 @@ function reorganizarLayout() {
     const ideaH1 = divTextoIdea.querySelector("h1") || divIdea.querySelector("h1");
 
     if (window.innerWidth <= 768) {
-        divIdea.prepend(ideaH1);
-        divTextoIdea.appendChild(boxCode);
+        divIdea.appendChild(boxCode);
+        divTextoIdea.prepend(ideaH1);
     } else {
         divTextoIdea.prepend(ideaH1);
         divIdea.appendChild(boxCode);
