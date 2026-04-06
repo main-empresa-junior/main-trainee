@@ -43,6 +43,6 @@
 
 //efieto aura para imagens
 @mixin efeito-aura{
-  box-shadow: 10px 0px 50px 0px rgb(3, 206, 190),
-  -10px -0px 50px 0px rgb(255, 0, 201);
+  box-shadow: 10px 10px 50px 0px rgb(3, 206, 190),
+  -10px -10px 50px 0px rgb(255, 0, 201);
 }
