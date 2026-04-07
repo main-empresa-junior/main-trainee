@@ -185,3 +185,97 @@ main{
     color: #FF00C9; 
     
 }
+
+@media (max-width: 768px){
+.explicacao{
+    display: flex; 
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    height: 100%;
+    
+}
+
+.container-titulo-exp{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-texto-exp{
+    height: 50%;
+    padding: 0 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-gigante-eba{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.processoseletivo{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.container-tit-ps{
+    width: 100%;
+
+}
+
+.container-texto-ps{
+    padding: 0 28px;
+}
+
+.faq{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+.container-tit-faq{
+    width: 100%;
+}
+
+.container-texto-faq{
+    padding: 0 28px;
+}
+
+.Cone{
+    position: absolute;
+    right: 5%;
+    bottom: 35%;
+    transform: translate(-20%, 30%);
+    width: clamp(100px, 10.5vw, 200px); 
+    height: auto;
+}
+
+.fundo-magenta{
+  position: absolute;
+  right: 0;
+  bottom: 35%;
+  transform: translate(50%, 40%);
+  width: clamp(150px, 18vw, 300px);
+  height: min(120px, 20vw);
+  background-color: white;
+  border: clamp(5px, 10vw, 250px) outset #c01d9d;
+  border-radius: 80%;
+  filter: blur(clamp(50px, 100px, 300px));
+  
+}
+}
