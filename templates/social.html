@@ -3,12 +3,12 @@
 {% block title %}Social{% endblock title %}
 
 {% block content %}
-  <div id="estrelaFundo"><img src="/imagens/metal-neon.svg" alt="estrelaFundo"></div>
-  <div id="AnelNeon"><img src="/imagens/AnelNeon.png" alt=""></div>
-  <div id="noteRoxo"><img src="/imagens/noteRoxo.png" alt="noteRoxo"></div>
+  <div id="estrelaFundo"><img src="{{ get_url(path='imagens/metal-neon.svg') }}" alt="estrelaFundo">
+  <div id="AnelNeon"><img src="{{ get_url(path='imagens/AnelNeon.png') }}" alt="">
+  <div id="noteRoxo"><img src="{{ get_url(path='imagens/noteRoxo.png') }}" alt="noteRoxo">
   <div id="blur-aura"></div>  
   <div id="blur-aura-rosa"></div> 
-  <div id="cuboNeon"><img src="/imagens/cube-Transparent.svg" alt=""></div>
+  <div id="cuboNeon"><img src="{{ get_url(path='imagens/cube-Transparent.svg') }}" alt=""></div>
 <section class="content-container">
     <div class="texto">
         {{ page.content | safe }}

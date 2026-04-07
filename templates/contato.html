@@ -48,13 +48,13 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.517929168628!2d-51.938918223888216!3d-23.405650655891627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd132a8d9ea27%3A0x8a04c17be315d09d!2sBloco%20C56!5e0!3m2!1sen!2sbr!4v1773092996106!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="photo-thumb">
-          <img src="/imagens/din.jpg" alt="Bloco C56 - Departamento de Informática">
+          <img src="{{ get_url(path='imagens/din.jpg') }}" alt="Bloco C56 - Departamento de Informática">
         </div>
       </div>
     </div>
     
-    <img src="/img/cone.svg" class="decoration-cone-bg" alt="">
-    <img src="/img/cube.svg" class="decoration-cube-bg" alt="">
+    <img src="{{ get_url(path='imagens/cone.svg') }}" class="decoration-cone-bg" alt="">
+    <img src="{{ get_url(path='imgagens/cube.svg') }}" class="decoration-cube-bg" alt="">
   </section>
 </div>
 {% endblock content %}
