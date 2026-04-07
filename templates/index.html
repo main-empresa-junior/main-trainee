@@ -4,7 +4,7 @@
 
 {% block content %}
 
-<img src="/imagens/fundo_Galaxia.png" id="fundo-hero">
+<img src="{{ get_url(path='imagens/fundo_Galaxia.png') }}" id="fundo-hero">
 
 <div class="content" >
 
@@ -20,14 +20,14 @@
 
   <div id="img-hero" >
     <div id="blur-background"></div>
-    <img src="/imagens/computer.svg" id="computer-hero">
+    <img src="{{ get_url(path='imagens/computer.svg') }}" id="computer-hero">
     <div id="blur-shadow"></div>
     <div id="blur-aura"></div>
-    <img src="/imagens/logo-main-neon.svg" id="main-logo-aura">
-    <img src="/imagens/coffe-branco.svg" id="coffe-aura">
-    <img src="/imagens/error-branco.svg" id="error-aura">
-    <img src="/imagens/dino-branco.svg" id="dino-aura">
-    <img src="/imagens/code-branco.svg" id="code-aura">
+    <img src="{{ get_url(path='imagens/logo-main-neon.svg') }}" id="main-logo-aura">
+    <img src="{{ get_url(path='imagens/coffe-branco.svg') }}" id="coffe-aura">
+    <img src="{{ get_url(path='imagens/error-branco.svg') }}" id="error-aura">
+    <img src="{{ get_url(path='imagens/dino-branco.svg') }}" id="dino-aura">
+    <img src="{{ get_url(path='imagens/code-branco.svg') }}" id="code-aura">
   </div>
 
 
@@ -49,14 +49,14 @@
       <div id="lay2"></div>
       <div id="lay3"></div>
     </div>
-    <img src="/imagens/cone-Transparent.svg" id="cone">
-    <img src="/imagens/cube-Transparent.svg" id="cube#1">
-    <img src="/imagens/cube-Transparent.svg" id="cube#2">
-    <img src="/imagens/prisma-Transparent.svg" id="prisma">
-    <img src="/imagens/piramide-Transparent.svg" id="piramide">
+    <img src="{{ get_url(path='imagens/cone-Transparent.svg') }}" id="cone">
+    <img src="{{ get_url(path='imagens/cube-Transparent.svg') }}" id="cube#1">
+    <img src="{{ get_url(path='imagens/cube-Transparent.svg') }}" id="cube#2">
+    <img src="{{ get_url(path='imagens/prisma-Transparent.svg') }}" id="prisma">
+    <img src="{{ get_url(path='imagens/piramide-Transparent.svg') }}" id="piramide">
   </div>
 
-<img src="/imagens/fundo_Galaxia.png" id="fundo-hero#2">
+<img src="{{ get_url(path='imagens/fundo_Galaxia.png') }}" id="fundo-hero#2">
 
   <div id="main-info" style>
     <div id="apresentacao">
@@ -74,7 +74,7 @@
         </div>
         <div class="space-responsive">
           <div class="icon-aura">
-            <img src="/imagens/mini-main-aura.svg">
+            <img src="{{ get_url(path='imagens/mini-main-aura.svg') }}">
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
         </div>
         <div class="space-responsive">
           <div class="icon-aura">
-              <img src="/imagens/terminal-aura.svg">
+              <img src="{{ get_url(path='imagens/terminal-aura.svg') }}">
           </div>
         </div>
       </div>
@@ -102,12 +102,12 @@
         </div>
         <div class="space-responsive">
           <div class="icon-aura">
-              <img src="/imagens/star-aura.svg">
+              <img src="{{ get_url(path='imagens/star-aura.svg') }}">
           </div>
         </div>
       </div>
-      <img src="/imagens/cube-Transparent.svg" id="cube#3">
-      <img src="/imagens/cone-Transparent.svg" id="cone#2">
+      <img src="{{ get_url(path='imagens/cube-Transparent.svg') }}" id="cube#3">
+      <img src="{{ get_url(path='imagens/cone-Transparent.svg') }}" id="cone#2">
       <div id="blur-background2"></div>
     </div>
   </div>
@@ -119,5 +119,5 @@
 {% endblock content %}
 
 {% block scripts %}
-<script src="/js/_home.js" defer></script>
+<script src="{{ get_url(path='js/_home.js') }}" defer></script>
 {% endblock %}
