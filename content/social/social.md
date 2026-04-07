@@ -20,7 +20,7 @@ A Main também busca ser um agente de transformação para quem mais precisa. No
 
 <p class="centralizado">Roupeiro Santa Rita de Cássia</p>
 
-![Roupeiro Santa Rita](/imagens/ropeiroSantaRita.png)
+![Roupeiro Santa Rita](../imagens/ropeiroSantaRita.png)
 
 ## Quer saber mais?
 Estamos abertos a novas iniciativas sociais. Para mais informações  entre em contato com o telefone **(44) 99174-6172** ou com o nosso email **mainjr@uem.br**.
