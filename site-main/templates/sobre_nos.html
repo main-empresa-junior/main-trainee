@@ -4,7 +4,6 @@
 
 {% block content %}
 <div class="contents">
-
     <div id="sobre-nos">
         <h1>Sobre Nós...</h1>
         <div id="descricao">
@@ -24,8 +23,6 @@
         <img src="{{ get_url(path='imagens/treinamento_liliam.jpg') }}" id="img-principal">
         <img src="{{ get_url(path='imagens/fundo_Galaxia.png')}}" id="img-sobre-nos1">
         <img src="{{ get_url(path='imagens/treinamento_pet.jpg')}}" id="img-sobre-nos2">
-
-
     </div>
 
     <div id="nossa-cultura">
@@ -117,3 +114,7 @@
 
 </div>
 {% endblock content %}
+
+{% block scripts %}
+<script src="/js/_sobreNos.js" defer></script>
+{% endblock %}
